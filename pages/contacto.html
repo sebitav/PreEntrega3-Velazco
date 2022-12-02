@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="description" content="lf estudio es un salon de belleza que se dedica al lifting y al tratamiento y decoracion de uñas aceptamos todos los medios de pago y nos encontramos en monte grande buenos aires argentina"/>
+		<link rel="shortcut icon" href="../img/favicon1.jpg">
+		<title>L&F ESTUDIO</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet"/>
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+	<body>
+		<div class="contenedor">
+			<header class="header">
+				<div class="logo">
+					<p class="iniciales-logo">LF</p>
+					<h1>L&F ESTUDIO</h1>
+				</div>
+				<nav class="menu">
+					<a href="../index.html">Inicio</a>
+					<a href="servicios.html">Servicios</a>
+					<a href="galeria.html">Galeria</a>
+					<a href="contacto.html">Contacto</a>
+					<a href="faq.html">FAQ</a>
+				</nav>
+			</header>
+
+			<section>
+				<i><h2>Déjenos su consulta</h2></i>
+				<form class="formulario">
+					<fieldset>
+						<legend>Ingrese sus datos</legend>
+						<div>                
+							<label for="nombrecompleto">Nombre completo</label>
+							<input type="text" required id="nombrecompleto"
+						</div>
+						<div>
+							<label for="corre">Correo eléctronico</label>
+							<input type="email" required id="correo"
+						</div>
+						<div>
+							<label for="celular">Número de teléfono</label>
+							<input type="tel" id="celular" placeholder="Opcional"
+						</div>
+						<div>
+							<label for="sexo">Indique su sexo</label>
+							<input list="sexos" required name="sexo" id="sexo"
+							<datalist id="sexos">
+								<option value="Hombre"></option>
+								<option value="Mujer"></option>
+								<option value="Otro"></option>
+							</datalist>
+						</div>
+						<div>
+							Acepta <a class="terms"href="../terminos.txt">términos y condiciones</a>
+								<div>
+									<label for="acepta">Acepto</label><input type="radio" required name="acepta" id="acepta" value="1"></input>
+								</div>
+								
+						</div>
+						<label>
+							<br>Mensaje</br>
+							<span class="message">
+								<textarea name="message" cols="40" rows="10" class="message"></textarea>
+							</span>
+						</label>
+						<input type="submit"
+						value="Enviar formulario"/>
+						<input type="reset"
+						value="Limpiar formulario"/>
+					</fieldset>
+				</form>
+			</section>
+
+			<aside class="sidebar">
+				<div class="acerca-de">
+					<img src="../img/logo.jpg" class="img-perfil" alt="logo" />
+
+					<div class="bio">
+						<p class="titulo">¡Hola! Somos Lu y Flor, bienvenidas a nuestra página</p>
+						<p>
+							Estamos ubicadas en Monte Grande, Buenos Aires. Tomamos turnos con seña del 50%, contamos con años de experiencia en uñas, lifting laminado y cejas. Aceptamos todos los medios de pago, si tenes dudas contactanos! 
+						</p>
+					</div>
+				</div>
+				<nav class="menu">
+					<a href="servicios.html">Servicios</a>
+					<a href="galeria.html">Galeria</a>
+					<a href="../index.html">Inicio</a>
+					<a href="faq.html">FAQ</a>
+				</nav>
+			</aside>
+
+			<footer class="footer">
+				<p>Copyright © 2023 L&F ESTUDIO</p>
+			</footer>
+		</div>
+	</body>
+</html>

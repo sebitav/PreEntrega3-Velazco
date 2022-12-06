@@ -198,5 +198,13 @@
     "yargs": "^17.6.2",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebitav/PreEntrega3-Velazco.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebitav/PreEntrega3-Velazco/issues"
+  },
+  "homepage": "https://github.com/sebitav/PreEntrega3-Velazco#readme",
   "description": ""
 }
